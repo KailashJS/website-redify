@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    font-weight: 700;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -29,7 +30,7 @@
   }
   
   .navbar-logo {
-    color: #f00946;
+    color: #c82e2e;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -57,11 +58,11 @@
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+    border-bottom: 2px solid #c82e2e;
   }
   
   .nav-links {
-    color: #f00946;
+    color: #c82e2e;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -70,7 +71,7 @@
   }
   
   .fa-bars {
-    color: #f00946;
+    color: #c82e2e;
   }
   
   .menu-icon {
@@ -110,7 +111,7 @@
     }
   
     .nav-links:hover {
-      color: #f00946;
+      color: #c82e2e;
       transform: scale(1.2);
       transition: all 0.3s ease;
     }
@@ -125,8 +126,8 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 12px;
+      left: 0px;
       transform: translate(25%, 10%);
     }
   
@@ -141,7 +142,7 @@
     }
   
     .fa-times {
-      color: #f00946;
+      color: #c82e2e;
       font-size: 2rem;
     }
   

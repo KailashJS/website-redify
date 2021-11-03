@@ -47,7 +47,17 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/usecase" className="nav-links" onClick={closeMobileMenu}>
-                Use case
+                Use Case
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/clean_brand" className="nav-links" onClick={closeMobileMenu}>
+                Clean Brand
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/collaborate" className="nav-links" onClick={closeMobileMenu}>
+                Collaborate
               </Link>
             </li>
             <li className="nav-item">
@@ -55,6 +65,7 @@ function Navbar() {
                 About
               </Link>
             </li>
+            
             <li className="nav-btn">
               {button ? (
                 <Link to="/log-in" className="btn-link">
