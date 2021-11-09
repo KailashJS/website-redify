@@ -2,9 +2,9 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headLine: 'Unlimited Transaction with zero fees',
-    description: 'Get access to our exclusive diamond card that allows you to send unlimited transaction without getting charged any fees',
+    topLine: 'For a Healthier Life',
+    headLine: 'Search, Select & Purchase organic alternative',
+    description: 'We instantly search our database for toxic ingredients in product of your choice & present cleaner/organic alternatives',
     buttonLabel: 'Get Started',
     imgStart: '',
     img: 'images/mob-expo.png',
@@ -18,10 +18,10 @@ export const homeObjTwo = {
     topLine: '100% SECURE',
     headline: 'Stay protected 24/7 anywhere anytime',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+      'Did you know that over 95% of the chemicals used today in consumer products have never been tested for health and safety but are generally assumed to be safe Scientific evidence has shown that many of these products are not only toxic, but prolonged exposure can lead to increased risk of various types of diseases including cancer, infertility, fetal development defects, hormonal imbalances, immune deficiency, hyperallergic responses, childhood obesity, autism, ADD and ADHD, and learning deficits.',
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'images/svg-5.svg',
+    img: 'images/Mapa-con-iconsV2-1024x576.png',
     alt: 'Vault'
   };
   
@@ -32,23 +32,23 @@ export const homeObjTwo = {
     topLine: 'EASY SETUP',
     headline: 'Super fast and simple onboarding process',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+      "Redify empowers users to protect themselves and their families by identifying toxic ingredients in everyday products and presenting cleaner alternatives. It also empowers you to advocate for safer products. ”Redify it” for a safer, healthier life.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/redify_makeup.png',
     alt: 'Vault'
   };
   
   export const homeObjFour = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Download App',
     headline: 'Every transaction is stored on our secure cloud database',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
+      'Redify empowers users to protect themselves and their families by identifying toxic ingredients in everyday products and presenting cleaner alternatives. It also empowers you to advocate for safer products.',
+    buttonLabel: 'Download App',
     imgStart: 'start',
-    img: 'images/svg-8.svg',
+    img: 'images/brand-prs-redify.png',
     alt: 'Vault'
   };

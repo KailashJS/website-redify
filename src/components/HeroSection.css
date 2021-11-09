@@ -33,7 +33,7 @@
 }
 
 .top-line {
-    color: green;
+    color: rgb(17, 150, 5);
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -52,6 +52,10 @@
 
 .dark {
     color: #e2e0e0;
+}
+
+.blue-dark {
+    color: rgb(0, 238, 255);
 }
 
 .darkBg {

@@ -45,11 +45,11 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            {/*<li className="nav-item">
               <Link to="/usecase" className="nav-links" onClick={closeMobileMenu}>
                 Use Case
               </Link>
-            </li>
+            </li>*/}
             <li className="nav-item">
               <Link to="/clean_brand" className="nav-links" onClick={closeMobileMenu}>
                 Clean Brand
@@ -68,15 +68,15 @@ function Navbar() {
             
             <li className="nav-btn">
               {button ? (
-                <Link to="/log-in" className="btn-link">
+                <a href="https://registration-redify.web.app/" className="btn-link">
                   <Button buttonStyle="btn--outline">Log In</Button>
-                </Link>
+                </a>
               ) : (
-                <Link to="/log-in" className="btn-link" onClick={closeMobileMenu}>
+                <a href="https://registration-redify.web.app/" className="btn-link" onClick={closeMobileMenu}>
                   <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                     Log In
                   </Button>
-                </Link>
+                </a>
               )}
             </li>
           </ul>
